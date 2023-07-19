@@ -1,0 +1,88 @@
+#Formatted String
+
+# name = 'Johny'
+# age = 55
+# print(f'hi {name}. You are {age} years old')
+
+#String Indexes
+
+# selfish = '01234567'
+#         # 01234567
+# #[start:stop:stepover]
+# print(selfish[-1])
+
+# Immutability
+
+# selfish = '01234567'
+#Strings are immutable 
+
+#String Methods
+
+# quote = 'to be or not to be'
+# print(quote.upper())
+# print(quote.capitalize())
+# print(quote.lower())
+
+#Booleans
+
+# TRUE/FALSE
+
+# name = 'Amit'
+# age = 50
+# relationship_status = 'single'
+# relationship_status = 'it\'s complicated'
+# print(relationship_status)
+
+# birth_year = int(input("What year were you born? "))
+
+# age = 2023-birth_year
+
+# print(f" Your age is {age} years old")
+
+# print(len('hello'))
+
+# userName = input("Please Eneter your Username ")
+# password = input("Please Eneter the Password ")
+
+# pLen = len(password)
+
+# print(f"Hey {userName} your password {password} is {pLen} letters long ")
+
+#Lists
+
+# li = [1,2,3,4,5]
+# l12 = ['a','b','c','d']
+
+#List Slicing
+# amazon_cart = [
+#   "notebooks",
+#   "sunglasses",
+#   "toys",
+#   "grapes"
+# ]
+# amazon_cart[0] = "laptop"
+# new_cart = amazon_cart[:]
+# print(new_cart)
+# new_cart[0]='gum'
+# print(new_cart)
+# print(amazon_cart)
+
+
+#List Methods
+
+basket = [1,2,3,4,5]
+print(len(basket))
+
+#adding
+new_list = basket.append(100)
+print(new_list)
+
+extend
+
+
+
+
+
+
+
+
